@@ -1,0 +1,151 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: Roboto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nav {
+    height: 88px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    color:white;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-first {
+    padding-left: 100px;
+}
+
+.nav-last {
+    padding-right: 120px;
+}
+
+button {
+    height: 50px;
+    width: 140px;
+    background-color: aliceblue;
+    border-radius: 8px;
+    margin-top: 5px;
+    font-size: 25px;
+    color: white;
+}
+
+.submit {
+    width: 230px;
+    border: 1px solid white;
+    background-color: transparent;
+}
+
+.sign-in {
+    margin-left: 8.5px;
+    background-color: #4C5FD5;
+    border: none;
+    margin-top: -85px;
+}
+
+.hero {
+    height: 397px;
+    width: 100%;
+    background-color: #dadbf1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 80px;
+    flex-direction: column;
+}
+
+input {
+    width: 720px;
+    height: 36px;
+    margin-top: 20px;
+    border-radius: 4px;
+    font-size: 20px;
+    padding: 16px;
+    border: 1px solid #4C5FD5;
+    box-shadow: 7px 6px 14px -7px rgba(0,0,0,0.75);
+}
+
+.category-list {
+    height:800px;
+    width: 80%;
+    padding-top: 150px;
+}
+
+.category {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    width: 100%;
+    height: 35%;
+    display: flex;
+}
+
+img {
+    height: 100px;
+    padding: 19px;
+}
+
+.inner-div {
+    display: flex;
+    padding: 19px;
+    font-size: 24px;
+}
+
+.inner-div  h1 {
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: #4C5FD5;
+}
+
+.footer{
+    height: 402px;
+    background-color: black;
+    display: flex;
+    width: 100%;
+}
+
+.content {
+    display: flex;
+    padding-left: 100px;
+}
+
+.contents {
+    font-size: 24px;
+    width: 270px;
+    height: 164px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contents h1 {
+    font-size: 24px;
+}
+
+.contents a {
+    color: white;
+    font-size: 16px;
+    padding: 5px;
+}
+
+.copyright {
+    color: white;;
+}
